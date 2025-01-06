@@ -42,7 +42,7 @@ python -m venv env
 source env/bin/activate  # For Windows: env\Scripts\activate
 3. Install dependencies:
  ```bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 4.Set up the PostgreSQL database:
     Create a new database in PostgreSQL.
     Update the connection string in the .env file (refer to .env.example for guidance).
@@ -52,11 +52,11 @@ pip install -r requirements.txt
     The backend will be available at http://127.0.0.1:8000.
 ### Frontend Setup
 6.Navigate to the frontend folder:
- ```bash
-cd client
+    ```bash
+   cd client
 7.Install dependencies:
- ```bash
-flutter pub get
+   ```bash
+   flutter pub get
 8.Configure API endpoints:
 Update the backend API URL in a constants file (e.g., lib/constants.dart) if necessary.
 9.Run the Flutter app:

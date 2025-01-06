@@ -41,8 +41,7 @@ Before you begin, make sure you have the following installed:
 python -m venv env
 source env/bin/activate  # For Windows: env\Scripts\activate
 3. Install dependencies:
- ```bash
-  pip install -r requirements.txt
+
 4.Set up the PostgreSQL database:
     Create a new database in PostgreSQL.
     Update the connection string in the .env file (refer to .env.example for guidance).
